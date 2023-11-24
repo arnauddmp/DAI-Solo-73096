@@ -18,7 +18,6 @@ from sklearn.model_selection import GridSearchCV
 
 df_train=pd.read_csv('train.csv')   
 df_test=pd.read_csv('test.csv') 
-df3=pd.read_csv('gender_submission.csv')
 
 print(df_train.head(6))
 
